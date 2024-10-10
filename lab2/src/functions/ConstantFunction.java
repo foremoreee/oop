@@ -1,11 +1,11 @@
 package functions;
 public class ConstantFunction implements MathFunction {
-    private final double constant; // Приватное и неизменяемое поле для хранения константы
+    private final double constant; 
     public ConstantFunction(double constant) {
-        this.constant = constant; // Устанавливаем значение константы через конструктор
+        this.constant = constant;
     }
     @Override
     public double apply(double x) {
-        return constant; // Возвращаем константу вне зависимости от x
+        return constant;
     }
 }
